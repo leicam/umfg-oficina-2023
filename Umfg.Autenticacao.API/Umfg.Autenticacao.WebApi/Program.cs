@@ -15,6 +15,7 @@ namespace Umfg.Autenticacao.WebApi
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddRouting(options => options.LowercaseUrls = true);
             builder.Services.AddSwagger();
+            builder.Services.AddDataContext(builder.Configuration);
             builder.Services.AddServices();
 
             var app = builder.Build();

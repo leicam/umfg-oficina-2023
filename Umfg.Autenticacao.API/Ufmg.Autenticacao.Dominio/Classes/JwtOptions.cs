@@ -14,6 +14,6 @@ namespace Ufmg.Autenticacao.Dominio.Classes
         public string SecurityKey { get; set; } = string.Empty;
         public int AccessTokenExpiration { get; set; }
         public int RefreshTokenExpiration { get; set; }
-        public SigningCredentials SigningCredentials { get; set; } = new SigningCredentials(null, null);
+        public SigningCredentials SigningCredentials { get; set; }
     }
 }
