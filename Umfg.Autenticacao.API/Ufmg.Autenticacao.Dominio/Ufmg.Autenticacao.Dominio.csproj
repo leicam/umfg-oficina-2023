@@ -10,4 +10,8 @@
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Umfg.Autenticacao.DTO\Umfg.Autenticacao.DTO.csproj" />
+  </ItemGroup>
+
 </Project>

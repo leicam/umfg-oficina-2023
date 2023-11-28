@@ -13,15 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infraestrutura", "04 -
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Testes", "05 - Testes", "{A4FB9461-AEB7-4417-B071-58B20DFD1038}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ufmg.Autenticacao.Dominio", "Ufmg.Autenticacao.Dominio\Ufmg.Autenticacao.Dominio.csproj", "{556D12EC-5DAE-457F-A0AC-58922BB83593}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ufmg.Autenticacao.Dominio", "Ufmg.Autenticacao.Dominio\Ufmg.Autenticacao.Dominio.csproj", "{556D12EC-5DAE-457F-A0AC-58922BB83593}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umfg.Autenticacao.Servico", "Umfg.Autenticacao.Servico\Umfg.Autenticacao.Servico.csproj", "{FC22C00E-A159-4A02-8742-27437AA8D936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umfg.Autenticacao.Servico", "Umfg.Autenticacao.Servico\Umfg.Autenticacao.Servico.csproj", "{FC22C00E-A159-4A02-8742-27437AA8D936}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umfg.Autenticacao.Repositorio", "Umfg.Autenticacao.Repositorio\Umfg.Autenticacao.Repositorio.csproj", "{653D6453-3994-41AC-844E-2C574851EA6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umfg.Autenticacao.Repositorio", "Umfg.Autenticacao.Repositorio\Umfg.Autenticacao.Repositorio.csproj", "{653D6453-3994-41AC-844E-2C574851EA6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umfg.Autenticacao.WebApi", "Umfg.Autenticacao.WebApi\Umfg.Autenticacao.WebApi.csproj", "{C7852064-05D8-4E48-9905-C5AD264B2CC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umfg.Autenticacao.WebApi", "Umfg.Autenticacao.WebApi\Umfg.Autenticacao.WebApi.csproj", "{C7852064-05D8-4E48-9905-C5AD264B2CC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umfg.Autenticacao.Teste", "Umfg.Autenticacao.Teste\Umfg.Autenticacao.Teste.csproj", "{3714B17C-1ADA-49C0-B8AC-5B3B9766644F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umfg.Autenticacao.Teste", "Umfg.Autenticacao.Teste\Umfg.Autenticacao.Teste.csproj", "{3714B17C-1ADA-49C0-B8AC-5B3B9766644F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umfg.Autenticacao.DTO", "Umfg.Autenticacao.DTO\Umfg.Autenticacao.DTO.csproj", "{6D1929B7-0774-45E5-B9CB-66E2A4DF888B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{3714B17C-1ADA-49C0-B8AC-5B3B9766644F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3714B17C-1ADA-49C0-B8AC-5B3B9766644F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3714B17C-1ADA-49C0-B8AC-5B3B9766644F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1929B7-0774-45E5-B9CB-66E2A4DF888B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1929B7-0774-45E5-B9CB-66E2A4DF888B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1929B7-0774-45E5-B9CB-66E2A4DF888B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1929B7-0774-45E5-B9CB-66E2A4DF888B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{653D6453-3994-41AC-844E-2C574851EA6D} = {AF03A27A-ABCD-4296-BCD5-48E3D410027A}
 		{C7852064-05D8-4E48-9905-C5AD264B2CC6} = {0C57C72F-452E-4947-975E-D651391894DB}
 		{3714B17C-1ADA-49C0-B8AC-5B3B9766644F} = {A4FB9461-AEB7-4417-B071-58B20DFD1038}
+		{6D1929B7-0774-45E5-B9CB-66E2A4DF888B} = {FC798343-3332-4F42-99DF-90960E0ABC13}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73785B32-5161-4DE6-9678-9DB62F2A04BF}

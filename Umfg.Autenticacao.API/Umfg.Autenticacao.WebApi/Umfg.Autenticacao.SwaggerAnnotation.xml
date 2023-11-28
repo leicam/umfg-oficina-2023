@@ -4,5 +4,19 @@
         <name>Umfg.Autenticacao.WebApi</name>
     </assembly>
     <members>
+        <member name="M:Umfg.Autenticacao.WebApi.Controllers.v1.SigninController.LoginAsync(Umfg.Autenticacao.DTO.Classes.UsuarioDTO.SingIn)">
+            <summary>
+            Método responsavél pelo login do usuário
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Umfg.Autenticacao.WebApi.Controllers.v1.SignupController.CadastrarAsync(Umfg.Autenticacao.DTO.Classes.UsuarioDTO.SingUp)">
+            <summary>
+            Método responsavel pelo cadastro de um novo usuário
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>
